@@ -9,7 +9,7 @@
 # Downloading Azure CLI on the VSTS build agent machine
 sudo apt-get update -y && sudo apt-get install -y python libssl-dev libffi-dev python-dev build-essential
 curl -L https://azurecliprod.blob.core.windows.net/install.py -o install.py
-printf "/usr/azure-cli\n/usr/bin" | python install.py
+#printf "/usr/azure-cli\n/usr/bin" | python install.py
 az
 
 #Setting environment variables to access the blob container
